@@ -5,17 +5,27 @@
 }
 
  body {
-  background-color: black;
+  background-image: url('images/cover.png');
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  background-size: 100% 100%;
   font-family: sans-serif;
  }
 
 img {
-  border-radius: 20px;
+  border-radius: 50%;
   width: 320px;
   height: 320px;
+  border: 5px solid rgb(31, 27, 27);
 }
 
 h1 {
+  color: white;
+  margin-top: 31px;
+  margin-bottom: 8px;
+}
+
+h3 {
   color: white;
   margin-top: 31px;
   margin-bottom: 8px;
@@ -35,26 +45,42 @@ li {
 }
 
 a {
-  background-color: limegreen;
-  color: white;
+  background-color: rgb(204, 195, 68);
+  color: rgb(26, 25, 25);
   padding: 15px;
   text-decoration: none;
   display: block;
   border-radius: 5px;
 }
 
+a:hover {
+  background-color: white;
+  color: limegreen;
+}
+
 footer {
   color: white;
 }
 
-.container{
+.container {
   width: 320px;
   text-align: center;
   margin-top: 41px;
   margin-left: auto;
   margin-right: auto;
-
 }
+
+.qrcode {
+  border-radius: 5%;
+  width: 80px;
+  height: 80px;
+  border: 0px;
+  margin-top: 2%;
+  margin-left: 20px;
+}
+
+
+
 
 
 
